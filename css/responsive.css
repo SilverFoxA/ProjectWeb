@@ -216,7 +216,7 @@
   #header .navbar-inverse .navbar-toggle,
   #header .navbar-inverse .navbar-toggle:focus {
     border-color: #00aeef;
-    margin-top: 15px;
+/*    margin-top: 15px;*/
     margin-right: 5px;
     outline: none;
   }
