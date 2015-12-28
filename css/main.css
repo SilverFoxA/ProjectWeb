@@ -704,12 +704,12 @@ ul.sub-menu {
 
 .single-features {
   overflow: hidden;
-  padding-top: 65px;
+  padding-top: 0px;
   padding-bottom: 40px;
 }
 
 .single-features .col-sm-6 {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .single-features:last-child {
@@ -761,7 +761,7 @@ ul.sub-menu {
 }
 
 #team {
-  padding: 85px 0;
+  padding: 30px 0;
 }
 
 #team-carousel {
