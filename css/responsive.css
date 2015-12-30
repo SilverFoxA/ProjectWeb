@@ -99,30 +99,71 @@
   }
 
   #home-slider .slider-hill {
-    width: 400px;
+      height: auto;
+    width: 350px;
   }
 
   #home-slider .slider-house {
     width: 250px;
     right: 90px;
-    bottom: -20px;
+      height: auto;
+    bottom: -30px;
   }
 
   #home-slider .slider-sun {
     right: 255px;
-    bottom: 65px;
+    bottom: 10px;
+      height: auto;
     width: 60px
+  }
+      #home-slider .slider-robot {
+    right: 315px;
+    bottom: 10px;
+      height: auto;
+    width: 80px
+  }
+    #home-slider .slider-1 {
+    right: 75px;
+    bottom: 280px;
+    height: auto;
+    width: 40px;
+  }
+    #home-slider .slider-5 {
+    right: 130px;
+    bottom: 310px;
+    height: auto;
+    width: 40px;
+  }
+    #home-slider .slider-7 {
+    right: 130px;
+    bottom: 260px;
+    height: auto;
+    width: 40px;
+  }
+      #home-slider .slider-s {
+    right: 250px;
+    bottom: 270px;
+    height: auto;
+    width: 40px;
+  }
+     #home-slider .slider-a {
+    right: 180px;
+    bottom: 290px;
+    height: auto;
+    width: 40px;
   }
 
   #home-slider .slider-birds1 {
-    right: 320px;
-    bottom: 60px;
-    width: 70px;
+    right: 260px;
+    bottom: 20px;
+    width: 140px;
+      height: auto;
   }
 
   #home-slider .slider-birds2 {
-    right: 0;
-    bottom: 90px;
+    right: 70px;
+      height: auto;
+    bottom: 10px;
     width: 80px;
   }
 
@@ -239,7 +280,7 @@
   }
 
   .navbar.navbar-inverse {
-    margin-top: 20px;
+    margin-top: 5px;
     padding-left: 15px;
 /*    padding-right: 15px;*/
   }
@@ -302,17 +343,43 @@
     right: 50%;
     margin-right: 60px;
   }
+    
+  #home-slider .slider-robot {
+    right: 50%;
+    margin-right: 110px;
+  }
+      #home-slider .slider-1 {
+    right: 50%;
+    margin-right: -150px;
+  }
+  #home-slider .slider-5 {
+    right: 50%;
+    margin-right: -100px;
+  }
+      #home-slider .slider-7 {
+    right: 50%;
+    margin-right: -60px;
+  }
+      #home-slider .slider-s {
+    right: 50%;
+    margin-right: 60px;
+  }
+     #home-slider .slider-a {
+    right: 50%;
+    margin-right: -20px;
+  }
+
 
   #home-slider .slider-birds1 {
-    width: 70px;
+    width: 140px;
     right: 50%;
-    margin-right: 120px;
+    margin-right: 60px;
   }
 
   #home-slider .slider-birds2 {
     width: 70px;
     right: 50%;
-    margin-right: -200px;
+    margin-right: -140px;
   }
 
   /*Pricing Table*/
@@ -642,3 +709,4 @@
     padding: 12px 11px;
   }
 }
+

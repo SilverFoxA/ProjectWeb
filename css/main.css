@@ -114,7 +114,7 @@
   }
 
   .padding{
-    padding: 65px 0;
+    padding: 10px 0;
   }
 
   .padding-bottom{
@@ -122,7 +122,7 @@
   }
 
   .padding-top{
-    padding-top: 90px;
+    padding-top: 30px;
   }
 
   .padding-right{
@@ -167,7 +167,7 @@
 
 #header{
   margin-bottom: 0;
-  padding: 30px 0 60px 0;
+  padding: 10px 0 40px 0;
 }
 
 #header .navbar-inverse .container{
@@ -389,6 +389,7 @@ ul.sub-menu {
   padding-bottom: 10px;
   background-image: url(../images/home/footer_team.png);
   background-repeat: repeat-x;
+    background-color: #CCC;
   background-position: bottom;
   background-size: contain;
 }
@@ -399,7 +400,7 @@ ul.sub-menu {
 }
 
 #footer .bottom-separator {
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 
 #message {
@@ -533,7 +534,7 @@ ul.sub-menu {
 *******Home Page******
 **************************/
 #home-slider {
-  background: url(../images/home/slider-bg_team.png) 0 100% repeat-x;
+  background: url(../images/home/slider-bg.png) 0 100% repeat-x;
   position: relative;
 }
 
@@ -557,6 +558,7 @@ ul.sub-menu {
 #home-slider .slider-hill {
   position: absolute;
   right: 0;
+    height: 110%;
   bottom: 0;
 }
 
@@ -568,7 +570,8 @@ ul.sub-menu {
 #home-slider .slider-house {
   position: absolute;
   right: 110px;
-  bottom: -30px;
+    height: 70%;
+  bottom: -60px;
 }
 
 .animate-in .slider-house {
@@ -578,19 +581,81 @@ ul.sub-menu {
 
 #home-slider .slider-sun {
   position: absolute;
-  right: 365px;
-  bottom: 100px;
+  right: 300px;
+    height: 20%;
+  bottom: -15px;
+}
+#home-slider .slider-robot {
+  position: absolute;
+  right: 400px;
+    height: 30%;
+  bottom: -15px;
+}
+#home-slider .slider-1 {
+  position: absolute;
+  right: 100px;
+    height: 10%;
+  bottom: 400px;
+}
+#home-slider .slider-5 {
+  position: absolute;
+  right: 140px;
+    height: 10%;
+  bottom: 450px;
+}
+#home-slider .slider-7 {
+  position: absolute;
+  right: 180px;
+    height: 10%;
+  bottom: 380px;
+}
+#home-slider .slider-a {
+  position: absolute;
+  right: 240px;
+    height: 10%;
+  bottom: 420px;
+}
+#home-slider .slider-s {
+  position: absolute;
+  right: 320px;
+    height: 10%;
+  bottom: 420px;
 }
 
 .animate-in .slider-sun {
   -webkit-animation: scaleIn 500ms ease-in-out 1200ms both;
   animation: scaleIn 500ms ease-in-out 1200ms both;
 }
+.animate-in .slider-robot {
+  -webkit-animation: scaleIn 500ms ease-in-out 1200ms both;
+  animation: scaleIn 500ms ease-in-out 1200ms both;
+}
+.animate-in .slider-1 {
+  -webkit-animation: scaleIn 500ms ease-in-out 1200ms both;
+  animation: scaleIn 500ms ease-in-out 1200ms both;
+}
+.animate-in .slider-5 {
+  -webkit-animation: scaleIn 500ms ease-in-out 1200ms both;
+  animation: scaleIn 500ms ease-in-out 1200ms both;
+}
+.animate-in .slider-a {
+  -webkit-animation: scaleIn 500ms ease-in-out 1200ms both;
+  animation: scaleIn 500ms ease-in-out 1200ms both;
+}
+.animate-in .slider-s {
+  -webkit-animation: scaleIn 500ms ease-in-out 1200ms both;
+  animation: scaleIn 500ms ease-in-out 1200ms both;
+}
+.animate-in .slider-7 {
+  -webkit-animation: scaleIn 500ms ease-in-out 1200ms both;
+  animation: scaleIn 500ms ease-in-out 1200ms both;
+}
 
 #home-slider .slider-birds1 {
   position: absolute;
-  right: 470px;
-  bottom: 75px;
+  right: 310px;
+    height: 50%;
+  bottom: -20px;
 }
 
 .animate-in .slider-birds1 {
@@ -600,8 +665,9 @@ ul.sub-menu {
 
 #home-slider .slider-birds2 {
   position: absolute;
-  right: 40px;
-  bottom: 150px;
+  right: 50px;
+    height: 30%;
+  bottom: 0px;
 }
 
 .animate-in .slider-birds2 {
@@ -713,7 +779,7 @@ ul.sub-menu {
 }
 
 .single-features:last-child {
-  padding-bottom: 95px;
+  padding-bottom: 30px;
   padding-top: 0;
 }
 
@@ -2723,3 +2789,97 @@ span.stButton_gradient,
   border-radius: 100%;
   margin: 10px 0;
 }
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+    position: absolute;
+background-image: url('/images/footer.png');
+//  background-position: center;
+    background-color: #ECEBEB;
+  background-size: cover;
+}
+
+@media (max-width: 780px){
+.site-footer {
+    position: absolute;
+background-image: url('/images/footer.png');
+ background-position: center;
+    background-color: #ECEBEB;
+  background-size: cover;
+}
+}
+
+.footer-heading {
+    font-size: 18px;
+//    margin-bottom: $spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.footer-col-wrapper {
+    font-size: 15px;
+    color: $grey-color;
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+}
+
+.footer-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-laptop) {
+    .footer-col-1,
+    .footer-col-2 {
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
+
+    .footer-col-3 {
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+@include media-query($on-palm) {
+    .footer-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+
+
+.footer_bottom {
+    z-index: 1000;
+    align-content: center;
+    position: relative;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
