@@ -12,7 +12,7 @@
     <link href="css/animate.min.css" rel="stylesheet"> 
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
-
+<script src="http://maps.googleapis.com/maps/api/js"></script>
     <!--[if lt IE 9]>
 	    <script src="js/html5shiv.js"></script>
 	    <script src="js/respond.min.js"></script>
@@ -82,7 +82,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <img src="images/aboutus/1.png" class="img-responsive" alt="">
+                    <img src="images/Website_Graphics/cute-monsters/m2.png" style="height:298px; margin:0 auto;" class="img-responsive" alt="">
                 </div>
                 <div class="col-sm-6">
                     <p style="padding-right:5%; padding-top:10px;">Team Krishna is the first Indian team to register for the Global Learning XPRIZE Challenge, we are a pan India team of life long learners who believe that every child must have access to quality learning solution that are engaging and impactful. We believe that social circumstances should not determine the learningopportunities.
@@ -372,13 +372,14 @@
     </section>
     <!--/#team-->
 
- <footer id="footer">
+  <footer id="footer">
         <div class="container">
             <div class="row" style="margin-top:20px;">
                
                 <div class="col-md-4 col-sm-6">
                     <div class="testimonial bottom">
-                        <h2>Testimonial</h2>
+                        <h2>Get in touch</h2>
+<!--
                         <div class="media">
                             <div class="pull-left">
                                 <a href="#"><img src="images/home/profile1.png" alt=""></a>
@@ -397,17 +398,22 @@
                                 <h3><a href="">- Abhijit Das</a></h3>
                             </div>
                         </div>   
+-->
+                      <div id="googleMap" style="width:100%;height:300px;"></div>
                     </div> 
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="contact-info bottom">
                         <h2>Contacts</h2>
                         <address>
-                        E-mail: <a href="mailto:someone@example.com">email@email.com</a> <br> 
-                        Phone: +1 (123) 456 7890 <br> 
-                        Fax: +1 (123) 456 7891 <br> 
+                        E-mail: <a href="mailto:info@teamkrishna.in">info@teamkrishna.in</a> <br> 
+                        For technical bugs and queries <br> 
+                        developer@teamkrishna.in<br>
+                        Mobile : +91 8056093991 <br> 
+                       
                         </address>
 
+<!--
                         <h2>Address</h2>
                         <address>
                         Unit C2, St.Vincent's Trading Est., <br> 
@@ -415,6 +421,7 @@
                         Bristol, BS2 0UY <br> 
                         United Kingdom <br> 
                         </address>
+-->
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12">
@@ -439,7 +446,7 @@
                 <div class="col-sm-12">
                    <div class="footer_bottom" >
 <!--                    <div class="copyright-text text-center">-->
-                        <p style="margin:0px;color:white;">&copy; TeamKrishna 2015. All Rights Reserved. Developed by <a target="_blank" href="developers.html">developers</a></p>
+                        <p style="margin:0px;color:black;">&copy; TeamKrishna 2015. All Rights Reserved. Developed by <a target="_blank" href="developers.html">developers</a></p>
 <!--                    </div>-->
                 </div>
                 </div>
@@ -447,6 +454,25 @@
         </div>
     </footer>
     <!--/#footer-->
+
+
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(12.58262, 77.42035),
+    zoom:13,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    
+    var marker = new google.maps.Marker({
+    position: new google.maps.LatLng(12.58262, 77.42035),
+    map: map,
+    title: 'Location'
+  });
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 
 
 

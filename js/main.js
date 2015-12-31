@@ -87,9 +87,9 @@ jQuery(function($) {'use strict';
 		var map;
 
 		map = new GMaps({
-			el: '#gmap',
-			lat: 43.04446,
-			lng: -76.130791,
+			el: '#gmap', 
+			lat: 12.58262,
+			lng: 77.42035,
 			scrollwheel:false,
 			zoom: 16,
 			zoomControl : false,
