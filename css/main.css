@@ -557,8 +557,8 @@ ul.sub-menu {
 
 #home-slider .slider-hill {
   position: absolute;
-  right: 0;
-    height: 90%;
+  right: 20%;
+    height: 60%;
   bottom: 0;
 }
 
@@ -569,9 +569,9 @@ ul.sub-menu {
 
 #home-slider .slider-house {
   position: absolute;
-  right: 110px;
-    height: 60%;
-  bottom: -60px;
+  right: 180px;
+    height: 20%;
+  bottom: -10px;
 }
 
 .animate-in .slider-house {
@@ -581,45 +581,45 @@ ul.sub-menu {
 
 #home-slider .slider-sun {
   position: absolute;
-  right: 300px;
+  right: 120px;
     height: 20%;
   bottom: -15px;
 }
 #home-slider .slider-robot {
   position: absolute;
-  right: 400px;
+  right: 235px;
     height: 30%;
   bottom: -15px;
 }
 #home-slider .slider-1 {
   position: absolute;
-  right: 100px;
-    height: 10%;
-  bottom: 350px;
+  right: 290px;
+    height: 5%;
+  bottom: 210px;
 }
 #home-slider .slider-5 {
   position: absolute;
-  right: 140px;
-    height: 10%;
-  bottom: 370px;
+  right: 440px;
+    height: 5%;
+  bottom: 210px;
 }
 #home-slider .slider-7 {
   position: absolute;
-  right: 180px;
-    height: 10%;
-  bottom: 300px;
+  right: 330px;
+    height: 5%;
+  bottom: 230px;
 }
 #home-slider .slider-a {
   position: absolute;
-  right: 240px;
-    height: 10%;
-  bottom: 320px;
+  right: 380px;
+    height: 5%;
+  bottom: 240px;
 }
 #home-slider .slider-s {
   position: absolute;
-  right: 320px;
-    height: 10%;
-  bottom: 320px;
+  right: 370px;
+    height: 5%;
+  bottom: 200px;
 }
 
 .animate-in .slider-sun {
@@ -654,7 +654,7 @@ ul.sub-menu {
 #home-slider .slider-birds1 {
      position: absolute;
     right: 310px;
-    height: 30%;
+    height: 20%;
     bottom: -10px;
 }
 
@@ -667,7 +667,7 @@ ul.sub-menu {
  
     position: absolute;
     right: 70px;
-    height: 20%;
+    height: 10%;
     bottom: -10px;
 }
 
