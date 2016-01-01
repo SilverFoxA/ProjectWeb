@@ -387,6 +387,7 @@ ul.sub-menu {
 
 #footer {
   padding-bottom: 0px;
+    position: relative;
 /*  background-image: url(../images/home/footer_team.png);*/
   background-repeat: repeat-x;
     background-color: #EFEFEF;
@@ -2927,4 +2928,65 @@ div.change_to {
     margin: 0 auto;
     height: auto;
     width: auto;
+}
+
+@-webkit-keyframes scroll {
+  from {
+    left: 0px;
+  }
+  50% {
+    left: -320px;
+  }
+  to {
+    left: -640px;
+  }
+}
+
+/*
+div {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat-x;
+}
+*/
+
+div#back {
+    position: absolute;
+/*  top: 0;*/
+  bottom: 0;
+  height: 100%;
+  right: 0;
+  background-repeat: repeat-x;
+  -webkit-animation: scroll 30s infinite linear;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9f/Sky_back_layer.png);
+}
+
+div#middle {
+    position: fixed;
+/*  top: 0;*/
+  bottom: 0;
+/*  right: 0;*/
+  background-repeat: repeat-x;
+  -webkit-animation: scroll 15s infinite linear;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/8b/Vegetation_%28middle_layer%29.png);
+}
+
+div#front {
+    position: absolute;
+/*  top: 0;*/
+  bottom: 0; height: 100%;
+  right: 0;
+  background-repeat: repeat-x;
+  -webkit-animation: scroll 7s infinite linear;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Ground_%28front_layer%29.png);
+}
+
+.l12item {
+/*    position: absolute;*/
+}
+
+.item12{
+z-index: 10;
 }
