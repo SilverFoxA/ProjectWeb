@@ -100,7 +100,7 @@
 
   #home-slider .slider-hill {
       height: auto;
-    width: 350px;
+    width: 300px;
   }
 
   #home-slider .slider-house {
@@ -330,7 +330,7 @@
 
 
   #home-slider .slider-hill {
-    right: 50%;
+    left: 0px;
     margin-right: -200px;
   }
 
