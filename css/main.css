@@ -861,19 +861,22 @@ ul.sub-menu {
 .team-single {
   position: relative;
 }
-.team-single 
-{
+/*
+.team-single{
     position: relative;
     overflow: hidden;
     border-radius: 50%;
 }
+*/
 
+/*
 img {
     display: inline;
     margin: 0 auto;
     height: 100%;
     width: auto;
 }
+*/
 
 
 
@@ -897,7 +900,7 @@ img {
 .team-single:hover .social-profile{
   background:rgba(112, 35, 64, 0.9);
   display: block;
-     border-radius: 50%;
+/*     border-radius: 50%;*/
   -webkit-animation: fadeInUp 400ms;
   animation: fadeInUp 400ms;
   -webkit-transition: all 0.9s ease;
@@ -2907,4 +2910,21 @@ div.to_change {
 
 div.change_to {
     display: none;
+}
+
+.person-thumb{
+/*
+    width: 100px;
+    height: 100px;
+*/
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.person-thumb img {
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: auto;
 }
