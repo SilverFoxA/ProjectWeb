@@ -117,8 +117,8 @@
     width: 60px;
   }
       #home-slider .slider-robot {
-        right: 180px;
-    bottom: 10px;
+    right: 130px;
+    bottom: 90px;
     height: auto;
     width: 80px;
   }
@@ -161,10 +161,9 @@
   }
 
   #home-slider .slider-birds2 {
-    right: 70px;
-      height: auto;
-    bottom: 10px;
     width: 60px;
+    right: 38%;
+    margin-right: -140px;
   }
 
   /*Pricing Table*/
@@ -330,24 +329,23 @@
 
 
   #home-slider .slider-hill {
-    left: 0px;
-      width: 260px;
-    margin-right: -200px;
+    left: 30px;
+    width: 200px;
   }
 
   #home-slider .slider-house {
-    right: 50%;
+    right: 60%;
     margin-right: -125px;
   }
 
   #home-slider .slider-sun {
-    right:0%;
-    margin-right: 0px;
+    right: 55%;
+    margin-right: -140px;
   }
     
   #home-slider .slider-robot {
-    right: 0%;
-    margin-right: 70px;
+    right: 60%;
+    margin-right: -125px;
   }
       #home-slider .slider-1 {
    right: 85%;
@@ -384,7 +382,7 @@
 
   #home-slider .slider-birds2 {
     width: 60px;
-    right: 40%;
+    right: 45%;
     margin-right: -140px;
   }
 

@@ -386,7 +386,7 @@ ul.sub-menu {
 **************************/
 
 #footer {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 /*  background-image: url(../images/home/footer_team.png);*/
   background-repeat: repeat-x;
     background-color: #EFEFEF;
@@ -581,15 +581,15 @@ ul.sub-menu {
 
 #home-slider .slider-sun {
   position: absolute;
-  right: 120px;
+  right: 100px;
     height: 20%;
   bottom: -15px;
 }
 #home-slider .slider-robot {
-  position: absolute;
-  right: 235px;
+     position: absolute;
+    right: 155px;
     height: 30%;
-  bottom: -15px;
+    bottom: 69px;
 }
 #home-slider .slider-1 {
   position: absolute;
@@ -668,7 +668,7 @@ ul.sub-menu {
     position: absolute;
     right: 70px;
     height: 10%;
-    bottom: -10px;
+    bottom: 10px;
 }
 
 .animate-in .slider-birds2 {
