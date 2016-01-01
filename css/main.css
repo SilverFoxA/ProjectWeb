@@ -2890,3 +2890,11 @@ background-image: url('/images/footer.png');
     padding: 20px;
     margin-left: -30px;
 }
+
+div.to_change {
+    display: block;
+}
+
+div.change_to {
+    display: none;
+}

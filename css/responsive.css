@@ -452,8 +452,13 @@
     display: inline-block;
     text-align: center;
   }
-
-
+div.to_change {
+    display: none;
+}
+    div.change_to{
+    display: block;
+    }
+}
   /* about us */
 
   .team-single {
