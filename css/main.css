@@ -390,7 +390,7 @@ ul.sub-menu {
     position: relative;
 /*  background-image: url(../images/home/footer_team.png);*/
   background-repeat: repeat-x;
-    background-color: #EFEFEF;
+    background-color: #8EC5ED;
   background-position: bottom;
   background-size: contain;
 }
@@ -2961,6 +2961,7 @@ div#back {
   background-repeat: repeat-x;
   -webkit-animation: scroll 30s infinite linear;
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9f/Sky_back_layer.png);
+    background-size: contain;
 }
 
 div#middle {
