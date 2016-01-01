@@ -668,7 +668,7 @@ ul.sub-menu {
     position: absolute;
     right: 70px;
     height: 10%;
-    bottom: 10px;
+    bottom: -10px;
 }
 
 .animate-in .slider-birds2 {

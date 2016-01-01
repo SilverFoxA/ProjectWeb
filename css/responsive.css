@@ -163,6 +163,7 @@
   #home-slider .slider-birds2 {
     width: 60px;
     right: 38%;
+      bottom: 10px;
     margin-right: -140px;
   }
 
@@ -383,6 +384,7 @@
   #home-slider .slider-birds2 {
     width: 60px;
     right: 45%;
+      bottom: 10px;
     margin-right: -140px;
   }
 
