@@ -2976,7 +2976,7 @@ div#middle {
 div#front {
     position: absolute;
 /*  top: 0;*/
-  bottom: 0; height: 100%;
+  bottom: 0; height: 470px;
   right: 0;
   background-repeat: repeat-x;
   -webkit-animation: scroll 7s infinite linear;
