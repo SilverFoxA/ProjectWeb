@@ -279,7 +279,7 @@
   font-size: 12px;
   padding: 20px;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 
@@ -289,11 +289,13 @@
 .navbar-inverse .navbar-nav > .open > a {
   background-color: inherit;
   border: 0;
+    font-weight: 400;
   color: #00aeef;
 }
 
 #header .navbar-inverse .navbar-nav  li a:hover{
   color: #00aeef;
+    font-weight: 500;
 }
 
 
@@ -2961,7 +2963,7 @@ div#back {
   background-repeat: repeat-x;
   -webkit-animation: scroll 30s infinite linear;
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9f/Sky_back_layer.png);
-    background-size: contain;
+/*    background-size: contain;*/
 }
 
 div#middle {
@@ -2990,4 +2992,8 @@ div#front {
 
 .item12{
 z-index: 10;
+}
+
+.nav li {
+    font-weight: 300;
 }
