@@ -58,7 +58,7 @@
   }
 
   h1{
-    color: #686868;
+    color: #000;
   }
 
   h2{
@@ -263,6 +263,7 @@
 #header .navbar-brand{
   padding: 0;
   margin-left: 0;
+    color: black;
 }
 
 #header .navbar-brand h1{
