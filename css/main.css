@@ -63,7 +63,8 @@
 
   h2{
     font-size: 24px;
-    color: #686868;
+    color: #000;
+      font-weight: 300;
   }
 
   h3{
@@ -479,6 +480,8 @@ ul.sub-menu {
 .bottom > address {
   line-height: 22px;
   margin-bottom: 40px;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .form-control {
@@ -1719,7 +1722,9 @@ Blog Default
 
 .post-title a,
 .comments-number a{
-  color: #686868;
+  color: #000;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .post-content .post-author{
@@ -2997,3 +3002,5 @@ z-index: 10;
 .nav li {
     font-weight: 300;
 }
+
+
