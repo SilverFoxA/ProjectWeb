@@ -579,11 +579,12 @@ div.to_change {
     margin-left: 0
   }
 
-  /* Contact-us2 CSS*/
+ /* Contact-us2 CSS*/
   #map-section .contact-info {
-    width: 51%;
+    width: 33%;
     padding: 20px;
   }
+
 
   #gmap {
     height: 310px;
