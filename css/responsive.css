@@ -72,7 +72,7 @@
     border: 1px solid #383E94;
     font-weight: 300;
     outline: none;
-        background-color: transparent;
+    background:rgba(255,255,255,0.5);
     box-shadow: none;
     height: 40px;
 }
@@ -248,7 +248,7 @@
     .form-control {
     border: 1px solid #383E94;
     font-weight: 300;
-        background-color: transparent;
+     background:rgba(255,255,255,0.5);
     outline: none;
     box-shadow: none;
     height: 40px;
@@ -649,7 +649,7 @@ div.to_change {
     border: 1px solid #383E94;
     font-weight: 300;
     outline: none;
-        background-color: transparent;
+    background:rgba(255,255,255,0.5);
     box-shadow: none;
     height: 40px;
 }
