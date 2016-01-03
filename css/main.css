@@ -553,7 +553,7 @@ ul.sub-menu {
 #home-slider .slide-text{
   position: absolute;
   top: 50px;
-  left: 0;
+  left: 30px;
   width: 450px;
 }
 
@@ -2017,7 +2017,7 @@ span.stButton_gradient,
 ********* Contact Us*********
 *****************************/
 #map-section {
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 50px;
   position: relative;
 }
@@ -2925,6 +2925,7 @@ div.change_to {
     width: 80%;
     height: 80%;
     position: relative;
+    margin: 0 auto;
     overflow: hidden;
     border-radius: 50%;
 }
@@ -2972,23 +2973,27 @@ div#back {
 }
 
 div#middle {
-    position: fixed;
+   position: absolute;
 /*  top: 0;*/
-  bottom: 0;
-/*  right: 0;*/
-  background-repeat: repeat-x;
-  -webkit-animation: scroll 15s infinite linear;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/8b/Vegetation_%28middle_layer%29.png);
-}
-
-div#front {
-    position: absolute;
-/*  top: 0;*/
-  bottom: 0; height: 470px;
+  bottom: 0; height: 420px;
   right: 0;
   background-repeat: repeat-x;
   -webkit-animation: scroll 7s infinite linear;
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Ground_%28front_layer%29.png);
+}
+
+div#front {
+/*    position: absolute;*/
+/*  top: 0;*/
+/*
+  bottom: 0; height: 420px;
+  right: 0;
+*/
+/*
+  background-repeat: repeat-x;
+  -webkit-animation: scroll 7s infinite linear;
+*/
+/*  background-image: url(/images/girlGIF.gif);*/
 }
 
 .l12item {
@@ -3004,3 +3009,27 @@ z-index: 10;
 }
 
 
+
+.person-info {
+    text-align: center;
+}
+
+#blog .preloader {
+  position: absolute;
+  left: 0;
+  top: 20%;
+  bottom: -30px;
+  right: 0;
+  background: #fafafa;
+  text-align: center;
+}
+
+#front img{
+    bottom: 12px;
+    position: absolute;
+    left:5%;
+}
+
+.testimonial {
+    visibility: hidden;
+}

@@ -324,6 +324,7 @@
 
   #home-slider .slide-text {
     top: 0;
+      left:0;
     width: 100%;
     text-align: center;
   }
@@ -458,11 +459,10 @@ div.to_change {
     div.change_to{
     display: block;
     }
-}
   /* about us */
 
   .team-single {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   #company-information.choose .padding-top {
@@ -619,7 +619,11 @@ div.to_change {
 }
 
 @media only screen and (max-width : 480px) {
+/* Contact-us2 CSS*/
 
+  #map-section .contact-info {
+    width: 100%;
+  }
   /* Pricing Table*/
 
   .single-price, .single-table {
@@ -692,11 +696,7 @@ div.to_change {
     margin-left: 0
   }
 
-  /* Contact-us2 CSS*/
-
-  #map-section .contact-info {
-    width: 100%;
-  }
+  
 
   #gmap {
     height: 390px;

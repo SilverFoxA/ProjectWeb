@@ -1,18 +1,34 @@
 <?php
-$name       = @trim(stripslashes($_POST['name'])); 
-$from       = @trim(stripslashes($_POST['email'])); 
-$subject    = @trim(stripslashes($_POST['subject'])); 
-$message    = @trim(stripslashes($_POST['message'])); 
-$to   		= 'email@email.com';//replace with your email
 
-$headers   = array();
-$headers[] = "MIME-Version: 1.0";
-$headers[] = "Content-type: text/plain; charset=iso-8859-1";
-$headers[] = "From: {$name} <{$from}>";
-$headers[] = "Reply-To: <{$from}>";
-$headers[] = "Subject: {$subject}";
-$headers[] = "X-Mailer: PHP/".phpversion();
+$email = $_POST["email"];
+$message =$_POST["message"];
+$name= $_POST["name"];
 
-mail($to, $subject, $message, $headers);
+require("lib/PHPMailerAutoload.php");
 
-die;
+$mail = new PHPMailer();
+
+$mail->setFrom($email, $name );
+
+$mail->AddAddress("info@teamkrishna.in", "TeamKrishna");
+
+// set word wrap to 50 characters
+$mail->WordWrap = 50;
+// set email format to HTML
+$mail->IsHTML(true);
+
+$mail->Subject = "You have a message! [".$_POST["subject"]+" ]";
+
+
+$mail->Body    = $message;
+$mail->AltBody = $message;
+
+if(!$mail->Send())
+{
+   echo "Message could not be sent. <p>";
+   echo "Mailer Error: " . $mail->ErrorInfo;
+   exit;
+}
+
+echo "Message has been sent";
+?>
