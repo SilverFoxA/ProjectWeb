@@ -2987,7 +2987,7 @@ div#middle {
   right: 0;
   background-repeat: repeat-x;
   -webkit-animation: scroll 7s infinite linear;
-  background-image: url(/images/grass.png);
+  background-image: url('/images/grass.png');
 }
 
 div#front {
