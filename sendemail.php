@@ -10,7 +10,7 @@ $mail = new PHPMailer();
 
 $mail->setFrom($email, $name );
 
-$mail->AddAddress("info@teamkrishna.in", "TeamKrishna");
+$mail->AddAddress("abhijit2294@gmail.com", "TeamKrishna");
 
 // set word wrap to 50 characters
 $mail->WordWrap = 50;
