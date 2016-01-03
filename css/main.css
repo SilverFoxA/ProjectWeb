@@ -3053,3 +3053,8 @@ z-index: 10;
     white-space: nowrap;
     overflow: hidden;
 }
+
+.mad_logo {
+    width:6%;
+    margin-bottom: 25px;
+}

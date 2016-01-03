@@ -68,6 +68,10 @@
 
 /* sm */
 @media only screen and (max-width : 992px) {
+    .mad_logo {
+    width:9%;
+    margin-bottom: 4%;
+}
     .form-control {
     border: 1px solid #383E94;
     font-weight: 300;
@@ -245,6 +249,10 @@
 
 /* xs */
 @media only screen and (max-width : 768px) {
+    .mad_logo {
+    width:20%;
+    margin-bottom: 9%;
+}
     .form-control {
     border: 1px solid #383E94;
     font-weight: 300;
@@ -645,6 +653,10 @@ div.to_change {
 }
 
 @media only screen and (max-width : 480px) {
+    .mad_logo {
+    width:20%;
+    margin-bottom: 7%;
+}
     .form-control {
     border: 1px solid #383E94;
     font-weight: 300;
