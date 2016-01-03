@@ -2975,11 +2975,11 @@ div#back {
 div#middle {
    position: absolute;
 /*  top: 0;*/
-  bottom: 0; height: 420px;
+  bottom: 0; height: 280px;
   right: 0;
   background-repeat: repeat-x;
   -webkit-animation: scroll 7s infinite linear;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Ground_%28front_layer%29.png);
+  background-image: url(/images/grass.png);
 }
 
 div#front {
@@ -3028,6 +3028,7 @@ z-index: 10;
     bottom: 12px;
     position: absolute;
     left:5%;
+    width: 25%;
 }
 
 .testimonial {
