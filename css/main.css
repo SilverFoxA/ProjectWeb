@@ -26,7 +26,7 @@
 
 
   a{
-    color:#C03035;
+    color:#00A1FF;
   }
 
   a:hover {
@@ -475,6 +475,12 @@ ul.sub-menu {
 
 .contact-info.bottom {
   padding-left: 25px;
+}
+.contact-info.bottom a{
+    color: #2C349A;
+}
+.contact-info.bottom a:hover{
+    color:crimson;
 }
 
 .bottom > address {
