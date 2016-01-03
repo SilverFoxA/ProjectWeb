@@ -3024,6 +3024,7 @@ z-index: 10;
 .person-info h2,.person-info p {
  white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 #blog .preloader {
