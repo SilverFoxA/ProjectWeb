@@ -3208,21 +3208,21 @@ ul.social {
 
 
 .image1 {
-    background-image: url('/images/join_us/social_media.png');
+    background-image: url('../images/join_us/social_media.png');
 }
 
 .data_science {
-     background-image: url('/images/join_us/data_science.png');
+     background-image: url('../images/join_us/data_science.png');
 }
 
 .graphics_designer {
-     background-image: url('/images/join_us/graphics_designer.png');
+     background-image: url('../images/join_us/graphics_designer.png');
 }
 
 .game_artists {
-    background-image: url('/images/join_us/game_artists.png');
+    background-image: url('../images/join_us/game_artists.png');
 }
 
 .game_developer {
-    background-image: url('/images/join_us/game_developer');
+    background-image: url('../images/join_us/game_developer');
 }
