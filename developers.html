@@ -68,50 +68,50 @@ figure img {
 }
 
 /** Contact Links **/
-figure .contact {
+figure .contact, figure .contact :focus {
   z-index: 2;
   position: absolute;
   display: block;
   top: 0; left: 0; right: 0; bottom: 0;
 }
-.contact a {
+.contact a, figure .contact a:focus{
   background-image: url('./images/developer/level-1-c.png');
 }
-figure .contact a {
+figure .contact a, figure .contact :focus{
   position: absolute;
   display: block;
   width: 50%; height: 50%;
   background-repeat: no-repeat;
   transition: all .25s ease-in-out;
 }
-  figure .contact .tw {
+  figure .contact .tw, figure .contact .tw :focus {
     top: 0; left: 0;
     background-color: rgba(0, 172, 238, .7);
     background-position: 30px 32px;
     transform: translate(-100%, -100%);
   }
-    figure .contact .tw:hover {
+    figure .contact .tw:hover,figure .contact .tw:focus {
       background-color: rgba(0, 172, 238, 1);
     }
-  figure .contact .fb {
+  figure .contact .fb, figure .contact .fb:focus {
     top: 0; right: 0;
     background-color: rgba(59, 89, 152, .7);
     background-position: -42px 32px;
     transform: translate(100%, -100%);
   }
-    figure .contact .fb:hover {
+    figure .contact .fb:hover,, figure .contact .fb :focus {
       background-color: rgba(59, 89, 152, 1);
     }
-  figure .contact .gp {
+  figure .contact .gp, figure .contact .gp:focus {
     bottom: 0; left: 0;
     background-color: rgba(59, 89, 152, .7);
     background-position: 30px -40px;
     transform: translate(-100%, 100%);
   }
-    figure .contact .gp:hover {
+    figure .contact .gp:hover, figure .contact .gp:focus {
       background-color: rgba(59, 89, 152, 1);
     }
-  figure .contact .ma {
+  figure .contact .ma, figure .contact .ma:focus {
     bottom: 0; right: 0;
     background-color: rgba(153, 153, 153, .7);
     background-position: -42px -40px;
