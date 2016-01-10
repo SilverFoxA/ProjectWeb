@@ -1,20 +1,5 @@
 jQuery(function($) {'use strict';
 
-	//Responsive Nav
-	$('li.dropdown').find('.fa-angle-down').each(function(){
-		$(this).on('click', function(){
-			if( $(window).width() < 768 ) {
-				$(this).parent().next().slideToggle();
-			}
-			return false;
-		});
-	});
-
-	//Fit Vids
-	if( $('#video-container').length ) {
-		$("#video-container").fitVids();
-	}
-
 	//Initiat WOW JS
 	new WOW().init();
 
@@ -62,9 +47,8 @@ jQuery(function($) {'use strict';
 	$('.fa-search').on('click', function() {
 		$('.field-toggle').fadeToggle(200);
 	});
-                    
-   
-//	// Contact form
+
+	// Contact form
 	var form = $('#main-contact-form');
 	form.submit(function(event){
 		event.preventDefault();
@@ -75,42 +59,12 @@ jQuery(function($) {'use strict';
 				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Email is sending...</p>').fadeIn() );
 			}
 		}).done(function(data){
-			form_status.html('<p class="text-success"> Thank you. We will get in touch with you.</p>').delay(3000).fadeOut();
+			form_status.html('<p class="text-success">Thank you. We will get in touch.</p>').delay(3000).fadeOut();
 		});
 	});
-         
-   
+
 	// Progress Bar
 	$.each($('div.progress-bar'),function(){
 		$(this).css('width', $(this).attr('data-transition')+'%');
 	});
-
-	if( $('#gmap').length ) {
-		var map;
-
-		map = new GMaps({
-			el: '#gmap', 
-			lat: 12.58262,
-			lng: 77.42035,
-			scrollwheel:false,
-			zoom: 16,
-			zoomControl : false,
-			panControl : false,
-			streetViewControl : false,
-			mapTypeControl: false,
-			overviewMapControl: false,
-			clickable: false
-		});
-
-		map.addMarker({
-			lat: 43.04446,
-			lng: -76.130791,
-			animation: google.maps.Animation.DROP,
-			verticalAlign: 'bottom',
-			horizontalAlign: 'center',
-			backgroundColor: '#3e8bff',
-		});
-	}
-                    
-
 });

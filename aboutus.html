@@ -574,7 +574,7 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
     <!--/#portfolio-->
 
 
-  <footer id="footer">
+   <footer id="footer">
       
         <div class="container">
             <div class="row" style="margin-top:20px;">
@@ -625,18 +625,18 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
                 <div class="col-md-4 col-sm-12 item12">
                     <div class="contact-form bottom">
                         <h2>Send a message</h2>
-                         <form id="main-contact-form" method="post" action="sendemail.php">
+                        <form id="main-contact-form"  method="post" action="sendemail.php">
                             <div class="form-group">
-                                <input type="text" id="name" name="name" class="form-control" required="required" placeholder="Name"/>
+                                <input type="text" id="name" name="name" class="form-control" required="required" placeholder="Your name">
                             </div>
                             <div class="form-group">
-                                <input type="email" id="email" name="email" class="form-control" required="required" placeholder="Email Id"/>
+                                <input type="email" id="email" name="email" class="form-control" required="required" placeholder="Email Id">
                             </div>
                             <div class="form-group">
-                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your text here"></textarea>
+                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your message here"></textarea>
                             </div>                        
                             <div class="form-group">
-                                <input id="submit" type="submit" name="submit" class="btn btn-submit" value="Submit" style="letter-spacing:0px;">
+                                <input id="submit" type="submit" name="submit"  class="btn btn-common" style="background-color:#0099ae; color:white; font-weight:400;width:100%;" value="Submit">
                             </div>
                         </form>
                     </div>
@@ -664,11 +664,15 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
     </footer>
     <!--/#footer-->
 
+
+
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>   
+    <script type="text/javascript" src="js/main.js"></script>    
+
 <script type="text/javascript">
 $('input#submit').click(function() {
 var email = $('input#email').val();
