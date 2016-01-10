@@ -23,12 +23,6 @@ $mail->Subject = "You have a message! [".$_POST["subject"]+" ]";
 $mail->Body    = $message;
 $mail->AltBody = $message;
 
-if(!$mail->Send())
-{
-   echo "Message could not be sent. <p>";
-   echo "Mailer Error: " . $mail->ErrorInfo;
-   exit;
-}
+$mail->Send();
 
-echo "Message has been sent";
 ?>
