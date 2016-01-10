@@ -10,19 +10,25 @@ $mail = new PHPMailer();
 
 $mail->setFrom($email, $name );
 
-$mail->AddAddress("info@teamkrishna.in", "TeamKrishna");
+$mail->AddAddress("abhijit2294@gmail.com", "Abhijit Das");
 
 // set word wrap to 50 characters
 $mail->WordWrap = 50;
 // set email format to HTML
 $mail->IsHTML(true);
 
-$mail->Subject = "You have a message! [".$_POST["subject"]+" ]";
+$mail->Subject = "You have a message! [".$_POST["subject"]."]";
 
 
 $mail->Body    = $message;
 $mail->AltBody = $message;
 
-$mail->Send();
+if(!$mail->Send())
+{
+   echo "Message could not be sent. <p>";
+   echo "Mailer Error: " . $mail->ErrorInfo;
+   exit;
+}
 
+echo "Message has been sent";
 ?>

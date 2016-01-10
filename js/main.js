@@ -62,8 +62,9 @@ jQuery(function($) {'use strict';
 	$('.fa-search').on('click', function() {
 		$('.field-toggle').fadeToggle(200);
 	});
-
-	// Contact form
+                    
+   
+//	// Contact form
 	var form = $('#main-contact-form');
 	form.submit(function(event){
 		event.preventDefault();
@@ -74,10 +75,10 @@ jQuery(function($) {'use strict';
 				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Email is sending...</p>').fadeIn() );
 			}
 		}).done(function(data){
-			form_status.html('<p class="text-success">Thank you for contact us. As early as possible  we will contact you</p>').delay(3000).fadeOut();
+			form_status.html('<p class="text-success"> Thank you. We will get in touch with you.</p>').delay(3000).fadeOut();
 		});
 	});
-
+                    
 	// Progress Bar
 	$.each($('div.progress-bar'),function(){
 		$(this).css('width', $(this).attr('data-transition')+'%');

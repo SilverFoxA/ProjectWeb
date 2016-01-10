@@ -36,6 +36,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="images/ico/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+     <script type="text/javascript" src="js/jquery.js"></script>
     <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto:400,100,700,500'>
 </head><!--/head-->
 
@@ -195,7 +196,7 @@
 </section>
 
 
-      <footer id="footer">
+    <footer id="footer">
       
         <div class="container">
             <div class="row" style="margin-top:20px;">
@@ -257,7 +258,7 @@
                                 <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your message here"></textarea>
                             </div>                        
                             <div class="form-group">
-                                <input type="submit" name="submit"  class="btn btn-common" style="background-color:#0099ae; color:white; font-weight:400;width:100%;" value="Submit">
+                                <input id="submit" type="submit" name="submit"  class="btn btn-common" style="background-color:#0099ae; color:white; font-weight:400;width:100%;" value="Submit">
                             </div>
                         </form>
                     </div>
@@ -284,72 +285,11 @@
         </div>
     </footer>
     <!--/#footer-->
-
-
-
-
-<script>
-function initialize() {
-  var mapProp = {
-    center:new google.maps.LatLng(12.58262, 77.42035),
-    zoom:13,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-    
-    var marker = new google.maps.Marker({
-    position: new google.maps.LatLng(12.58262, 77.42035),
-    map: map,
-    title: 'Location'
-  });
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-
-
-    <script type="text/javascript" src="js/jquery.js"></script>
+   
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>  
 
-<script type="text/javascript">
-$('input#submitjoin').click(function() {
-var email = $('input#email').val();
-var message = $('textarea#message').val();
-var name = $('input#name').val();
-var subject= "Requesting to join";
-$.ajax({
-    type: 'POST',
-    url: 'sendemail.php',
-    data: {message: message, email: email, name:name, subject:subject}, 
-    cache: false
-});
-});    
-    
-$('input#submit').click(function() {
-var email = $('input#email').val();
-var message = $('textarea#message').val();
-var name = $('input#name').val();
-var subject= "Enquiry";
-$.ajax({
-    type: 'POST',
-    url: 'sendemail.php',
-    data: {message: message, email: email, name:name, subject:subject}, 
-    cache: false
-});
-});
-</script>
-    <script type="text/javascript">
-        $(document).ready(function(e) {
-            $('#test').scrollToFixed();
-            $('.res-nav_click').click(function(){
-                $('.main-nav').slideToggle();
-                return false    
-
-            });
-
-        });
-    </script>
 </body>
 </html>
