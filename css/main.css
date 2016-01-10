@@ -3188,27 +3188,45 @@ ul.social {
 
 
 .image1 {
-    background-image: url('../images/join_us/social_media.png');
+/*    background-image: url('../images/join_us/social_media.png');*/
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/Website_Graphics/cute-monsters/m3.png');
 }
 
 .data_science {
-     background-image: url('../images/join_us/data_science.png');
+/*     background-image: url('../images/join_us/data_science.png');*/
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/Website_Graphics/robots/r5.png');
 }
 
 .graphics_designer {
-     background-image: url('../images/join_us/graphics_designer.png');
+/*     background-image: url('../images/join_us/graphics_designer.png');*/
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/Website_Graphics/cute-monsters/m8.png');
 }
 
 .game_artists {
-    background-image: url('../images/join_us/game_artists.png');
+/*    background-image: url('../images/join_us/game_artists.png');*/
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/Website_Graphics/cute-monsters/m5.png');
 }
 
 .game_developer {
-    background-image: url('../images/join_us/game_developer');
+/*    background-image: url('../images/join_us/game_developer');*/
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/Website_Graphics/robots/r1.png');
 }
 
 .music_composer {
-    background-image: url('../images/join_us/composer_notes.png');
+/*    background-image: url('../images/join_us/composer_notes.png');*/
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/Website_Graphics/robots/r3.png');
 }
 
 /* Portfolio Filters */	
