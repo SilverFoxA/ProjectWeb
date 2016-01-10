@@ -78,7 +78,8 @@ jQuery(function($) {'use strict';
 			form_status.html('<p class="text-success"> Thank you. We will get in touch with you.</p>').delay(3000).fadeOut();
 		});
 	});
-                    
+         
+   
 	// Progress Bar
 	$.each($('div.progress-bar'),function(){
 		$(this).css('width', $(this).attr('data-transition')+'%');
