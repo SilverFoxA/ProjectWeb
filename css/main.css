@@ -3271,3 +3271,7 @@ ul.social {
     text-decoration: none;
 	}
 	
+
+.remove_name {
+    display: inline-block;
+}
