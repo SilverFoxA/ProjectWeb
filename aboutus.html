@@ -78,10 +78,10 @@
                     <img src="images/home/team_logo.png"  style="height:60%; width:60%; margin:0 auto;" class="img-responsive wow fadeInDown" alt="">
                 </div>
                 <div class="col-sm-6">
-                    <p style="padding:5px; font-size:16px;font-weight:300;" class="wow slideInRight">Team Krishna is the first Indian team to register for the Global Learning XPRIZE Challenge, we are a pan India team of life long learners who believe that every child must have access to quality learning solutions</p>
-<p style="padding:5px; font-size:16px;font-weight:300;" class="wow slideInRight">
+                    <p style="padding:5px; font-size:16px;font-weight:300;" class="wow slideInLeft">Team Krishna is the first Indian team to register for the Global Learning XPRIZE Challenge, we are a pan India team of life long learners who believe that every child must have access to quality learning solutions</p>
+<p style="padding:5px; font-size:16px;font-weight:300;" class="wow slideInLeft">
 Our dreams started getting in shape when an industrious doctor running an NGO ( Proyas Therapeutic Rehabilitation Center ) for specially-abled kids decided to join, thus laying the foundation of this team. Likewise other individuals- Engineers, Graphic Artists, teachers and NGO workers helped realize our collective dreams justifying the quote, "In a competition, individual ambition serve the common goal."</p>
-<p style="padding:5px; font-size:16px;font-weight:300;" class="wow slideInRight">
+<p style="padding:5px; font-size:16px;font-weight:300;" class="wow slideInLeft">
 Education saves lives, fosters peace, strengthens the rights of women and girls, and promotes economic growth. Team Krishna believes that every child is special and it is only through education that we can help them shine, that we can help them reach their full potential. An educated young generation would make a peaceful and educated nation. Our future lies in the hands of children of today and we want to chip in with our own efforts to help bring about the change we want to see.
 </p>
                 
@@ -95,13 +95,16 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
             <div class="row">
                 <h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">Meet the Team</h1>
                 <div id="filters" class="sixteen columns">
-                <ul class="clearfix">
+                <ul class="clearfix" style="padding-left:0px;">
                     <li><a id="all" href="#" data-filter="*" class="active"><h5>All</h5></a></li>
-                    <li><a class="" href="#" data-filter=".member"><h5>Members</h5></a></li>
-                    <li><a class="" href="#" data-filter=".mentor"><h5>Mentors</h5></a></li>
+                    <li><a id="members" class="" href="#" data-filter=".member"><h5>Members</h5></a></li>
+                    <li><a id="contributors" class="" href="#" data-filter=".mentor"><h5>Contributors</h5></a></li>
                    
                 </ul><!--/#portfolio-filter-->
                 </div>
+                <h3 id="tag_contr" style=" text-align: center;
+    margin-bottom: 20px;margin-left:10px;margin-right:10px;
+    display: none;" class="wow fadeInLeft">We are grateful to our key volunteers for all their inputs and hard work</h3>
                     
                 <div class="portfolio-items">
                      <div class="col-sm-3 col-xs-6 wow fadeIn margin portfolio-item member">
@@ -121,8 +124,8 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
 -->
                                     </div>
                                     <div class="person-info">
-                                        <h2>Subhajit Roy</h2>
-                                        <p>Co - Founder</p>
+                                        <h2>Subhajit <span class="remove_name">Roy</span></h2>
+                                        <p class="desg">Co - Founder</p>
                                     </div>
                                 </div>
                             </div>
@@ -143,8 +146,8 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
 -->
                         </div>
                         <div class="person-info">
-                            <h2>Gargi Mazumdar</h2>
-                            <p>Co - Founder</p>
+                            <h2>Gargi <span class="remove_name">Mazumdar</span></h2>
+                            <p class="desg">Co - Founder</p>
                         </div>
                     </div>
                 </div>
@@ -165,8 +168,8 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
 -->
                         </div>
                         <div class="person-info">
-                            <h2>Kaushik Mazumdar</h2>
-                            <p>Software Lead</p>
+                            <h2>Kaushik <span class="remove_name">Mazumdar</span></h2>
+                            <p class="desg">Software Lead</p>
                         </div>
                     </div>
                 </div>
@@ -188,7 +191,7 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
                         </div>
                         <div class="person-info">
                             <h2>Somnath <span class="remove_name">Chakroborthy</span></h2>
-                            <p>Branding &amp; Marketing Lead</p>
+                            <p class="desg">Branding &amp; Marketing Lead</p>
                         </div>
                     </div>
                 </div>
@@ -209,8 +212,8 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
 -->
                         </div>
                         <div class="person-info">
-                            <h2>Rahul Venugopal</h2>
-                            <p >Leads on Science of Learning</p>
+                            <h2>Rahul <span class="remove_name">Venugopal</span></h2>
+                            <p class="desg">Leads on Science of Learning</p>
                         </div>
                     </div>
                 </div>
@@ -231,8 +234,8 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
 -->
                         </div>
                         <div class="person-info">
-                            <h2>Swati Saxena</h2>
-                            <p>Curriculum Expert</p>
+                            <h2>Swati <span class="remove_name">Saxena</span></h2>
+                            <p class="desg">Curriculum Expert</p>
                         </div>
                     </div>
                 </div>
@@ -253,8 +256,8 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
 -->
                         </div>
                         <div class="person-info">
-                            <h2>Devraj Hom Roy</h2>
-                            <p>Machine Learning Lead</p>
+                            <h2>Devraj <span class="remove_name">Hom Roy</span></h2>
+                            <p class="desg">Machine Learning Lead</p>
                         </div>
                     </div>
                 </div>
@@ -275,8 +278,8 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
 -->
                         </div>
                         <div class="person-info">
-                            <h2>Rashi Dhanai</h2>
-                            <p>Leads on Strategy</p>
+                            <h2>Rashi <span class="remove_name">Dhanai</span></h2>
+                            <p class="desg">Leads on Strategy</p>
                         </div>
                     </div>
                 </div>
@@ -297,12 +300,12 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
 -->
                         </div>
                         <div class="person-info">
-                            <h2>Dipankar Patra</h2>
-                            <p>Teaching &amp; Research Lead</p>
+                            <h2>Dipankar <span class="remove_name">Patra</span></h2>
+                            <p class="desg">Teaching &amp; Research Lead</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 col-xs-6 wow fadeIn margin portfolio-item mentor">
+                <div class="col-sm-3 col-xs-6 wow fadeIn margin portfolio-item member">
                     <div class="team-single-wrapper">
                         <div class="team-single">
                             <div class="person-thumb">
@@ -319,8 +322,8 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
 -->
                         </div>
                         <div class="person-info">
-                            <h2 >Dr. Amit <span class="remove_name">Choudhury</span></h2>
-                            <p>Child Psychologist</p>
+                            <h2>Dr. Amit <span class="remove_name">Choudhury</span></h2>
+                            <p class="desg">Child Psychologist</p>
                         </div>
                     </div>
                 </div>
@@ -341,8 +344,8 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
 -->
                         </div>
                         <div class="person-info">
-                            <h2>Ajit Sharma</h2>
-                            <p>Graphics Design Lead</p>
+                            <h2>Ajit <span class="remove_name">Sharma</span></h2>
+                            <p class="desg">Graphics Design Lead</p>
                         </div>
                     </div>
                 </div>
@@ -363,8 +366,8 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
 -->
                         </div>
                         <div class="person-info">
-                            <h2><a href="http://silverfoxa.github.io" style="color:black;">Abhijit Das</a></h2>
-                            <p>Software &amp; Lead Web Developer</p>
+                            <h2><a href="http://silverfoxa.github.io" style="color:black;">Abhijit <span class="remove_name">Das</span></a></h2>
+                            <p class="desg">Software &amp; Lead Web Developer</p>
                         </div>
                     </div>
                 </div>
@@ -386,7 +389,7 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
                         </div>
                         <div class="person-info">
                             <h2 >Anirban <span class="remove_name">Chakraborty</span></h2>
-                            <p>Game Graphics</p>
+                            <p class="desg">Game Graphics</p>
                         </div>
                     </div>
                 </div>
@@ -408,7 +411,7 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
                         </div>
                         <div class="person-info">
                             <h2 >Jayashri <span class="remove_name"> Chatterjee</span></h2>
-                            <p>Education Curriculum</p>
+                            <p class="desg">Education Curriculum</p>
                         </div>
                     </div>
                 </div>
@@ -429,8 +432,8 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
 -->
                         </div>
                         <div class="person-info">
-                            <h2 >Sohom Sengupta</h2>
-                            <p>Android Development &amp; Artificial Intelligence </p>
+                            <h2 >Sohom <span class="remove_name">Sengupta</span></h2>
+                            <p class="desg">Android Developer &amp; AI </p>
                         </div>
                     </div>
                 </div>
@@ -451,8 +454,8 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
 -->
                         </div>
                         <div class="person-info">
-                            <h2 >Arup Nandy</h2>
-                            <p>Web Developer</p>
+                            <h2 >Arup <span class="remove_name">Nandy</span></h2>
+                            <p class="desg">Web Developer</p>
                         </div>
                     </div>
                 </div>
@@ -473,8 +476,8 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
 -->
                         </div>
                         <div class="person-info">
-                            <h2 >Sayantan Guha</h2>
-                            <p>Creative Artist &amp; Musician </p>
+                            <h2 >Sayantan <span class="remove_name">Guha</span></h2>
+                            <p class="desg">Creative Artist &amp; Musician </p>
                         </div>
                     </div>
                 </div>
@@ -495,8 +498,8 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
 -->
                         </div>
                         <div class="person-info">
-                            <h2 >Avinash Sharma</h2>
-                            <p>Graphics Lead</p>
+                            <h2 >Avinash <span class="remove_name">Sharma</span></h2>
+                            <p class="desg">Graphics Lead</p>
                         </div>
                     </div>
                 </div>
@@ -517,8 +520,8 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
 -->
                         </div>
                         <div class="person-info">
-                            <h2 >Mayank Sewalia</h2>
-                            <p>Entrepreneur &amp; Researcher </p>
+                            <h2 >Mayank <span class="remove_name">Sewalia</span></h2>
+                            <p class="desg">Researcher in the field of education</p>
                         </div>
                     </div>
                 </div>
@@ -539,8 +542,8 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
 -->
                         </div>
                         <div class="person-info">
-                            <h2 >Sundeep Aggarwal </h2>
-                            <p>Software Developer</p>
+                            <h2 >Sundeep <span class="remove_name">Aggarwal</span> </h2>
+                            <p class="desg">Software Developer</p>
                         </div>
                     </div>
                 </div>
@@ -562,7 +565,7 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
                         </div>
                         <div class="person-info">
                             <h2 >Saikat <span class="remove_name"> Mukhopadhya</span></h2>
-                            <p>____blank____</p>
+                            <p class="desg">Researcher in the field of education</p>
                         </div>
                     </div>
                 </div>
@@ -672,6 +675,17 @@ Education saves lives, fosters peace, strengthens the rights of women and girls,
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>    
+<script type="text/javascript">
+$('.clearfix >li>a#all').click(function(){
+ document.getElementById("tag_contr").style.display="none";
+});
+    $('.clearfix >li>a#members').click(function(){
+ document.getElementById("tag_contr").style.display="none";
+});
+    $('.clearfix >li>a#contributors').click(function(){
+ document.getElementById("tag_contr").style.display="block";
+});
+</script>
 
 <script type="text/javascript">
 $('input#submit').click(function() {
